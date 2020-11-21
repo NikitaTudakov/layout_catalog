@@ -1,6 +1,6 @@
 .card {
   width: 200px;
-  padding: 0 14px 15px;
+  padding: 13px 14px 15px;
   margin: 0 24px 50px;
 
   border: 1px solid #f3f3f3;
@@ -8,11 +8,18 @@
 
   &__image {
     display: flex;
-    margin: 30px auto 45px;
+    margin: 0 auto 29px;
+    padding: 14px 1px 13px;
+    border: 3px solid transparent;
 
-    width: 160px;
-    height: 134px;
+    width: 168px;
+    height: 167px;
 
+    &:hover {
+      transform: scale(1.2);
+      transition-duration: 1s;
+      border: 3px solid #f3f3f3;
+    }
   }
 
   &__rate,
