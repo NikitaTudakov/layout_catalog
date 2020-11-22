@@ -14,10 +14,12 @@
 
     width: 168px;
     height: 167px;
+    transform: scale(1);
+
+    transition-duration: 1s;
 
     &:hover {
       transform: scale(1.2);
-      transition-duration: 1s;
       border: 3px solid #f3f3f3;
     }
   }
