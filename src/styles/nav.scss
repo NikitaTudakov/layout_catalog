@@ -5,8 +5,8 @@
   height: 60px;
 
   &__list {
-    display: flex;
-    flex-wrap: nowrap;
+    display: grid;
+    grid-template-columns: repeat(8, auto);
     list-style: none;
     padding-inline-start: 0;
   }
